@@ -15,7 +15,7 @@
 #content{
    display: grid;
    border: solid 2px black;
-   margin: 8%;
+   margin: 5%;
    grid-template-columns: 1fr;
    grid-template-rows: 15% 70% 15%;
 }
@@ -48,6 +48,6 @@
     padding: 10px;
     text-transform: uppercase;
     border: solid 2px white;
-    border-radius: 8px;
+    border-radius: 5px;
     background-color: transparent;
 }
