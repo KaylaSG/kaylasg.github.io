@@ -15,7 +15,7 @@
 #content{
    display: grid;
    border: solid 2px black;
-   margin: 10% 7% 10% 15%;
+   margin: 8%;
    grid-template-columns: 1fr;
    grid-template-rows: 15% 70% 15%;
 }
@@ -36,6 +36,8 @@
 
 #nav-list{
     list-style: none;
+    display: flex;
+    flex-direction: row;
 }
 
 #nav-list a{
