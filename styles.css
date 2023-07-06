@@ -18,5 +18,24 @@
    margin: 15% 7% 7% 20%;
    grid-template-columns: 1fr;
    grid-template-rows: 15% 70% 15%;
+}
 
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* #logo */
+
+#nav{
+    text-transform: uppercase;
+    display: flex;
+    justify-self: space-between;
+}
+
+#button{
+    padding: 10px;
+    text-transform: uppercase;
+    border: solid 2px white;
+    border-radius: 8px;
 }
