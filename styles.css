@@ -17,7 +17,8 @@
    border: solid 2px black;
    margin: 2.5% 5% 5% 5%;
    grid-template-columns: 1fr;
-   grid-template-rows: .5fr 1fr .5fr;
+   grid-template-rows: 1fr 3fr 1fr;
+   grid-template-areas: "header content thumbnail"
 }
 
 #header{
@@ -25,6 +26,7 @@
     justify-content: space-between;
     padding: 3%;
     font-size: 2rem;
+    grid-area: header;
 }
 
 /* #logo */
@@ -61,6 +63,7 @@
     grid-template-rows: repeat(3, 1fr);
     gap: 2%;
     width: 33%;
+    grid-area: content;
 }
 
 #drink-content h1{
