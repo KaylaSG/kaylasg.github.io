@@ -58,15 +58,16 @@
 #drink-content{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
-    gap: 2%;
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
     width: 33%;
+    padding-left: 3%;
 }
 
 #drink-content h1{
-    font-size: 3fr;
+    font-size: 3rem;
 }
 
 #drink-flavor{
-    font-size: 1.5fr;
+    font-size: 1.5rem;
 }
