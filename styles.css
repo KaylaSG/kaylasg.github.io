@@ -24,6 +24,7 @@
     display: flex;
     justify-content: space-between;
     padding: 3%;
+    font-size: 2rem;
 }
 
 /* #logo */
@@ -37,12 +38,13 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-    padding-left: 10px;
-    padding-right: 10px;
+    
 }
 
 #nav-list a{
     text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #button{
@@ -51,4 +53,5 @@
     border: solid 2px white;
     border-radius: 5px;
     background-color: transparent;
+    display: block;
 }
