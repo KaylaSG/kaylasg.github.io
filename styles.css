@@ -2,14 +2,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 12px;
     color: white;
 }
 
 #site{
-    /* width: 100vw;
-    height: 100vh; */
-    background-color: lightgray;
+    width: 100%;
+    height: 100%;
+    background-color: #FAB53D;
 }
 
 #content{
@@ -24,7 +23,8 @@
     display: flex;
     justify-content: space-between;
     padding: 3%;
-    font-size: 2rem;
+    font-size: 1.25rem;
+    align-items: center;
 }
 
 /* #logo */
@@ -53,19 +53,21 @@
     border: solid 2px white;
     border-radius: 2px;
     background-color: transparent;
+    font-size: 1.25rem;
 }
 
 #drink-content{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, auto);
-    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     width: 33%;
     padding-left: 3%;
+    align-self: center;
 }
 
 #drink-content h1{
-    font-size: 3rem;
+    font-size: 5rem;
+    text-transform: uppercase;
 }
 
 #drink-flavor{
