@@ -4,3 +4,15 @@
     padding: 0;
     font-size: 12px;
 }
+
+#site{
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+}
+
+#content{
+   display: grid;
+   border: solid 2px black;
+    
+}
