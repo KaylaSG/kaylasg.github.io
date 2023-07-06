@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-size: 12px;
+    color: white;
 }
 
 #site{
@@ -15,4 +16,7 @@
    display: grid;
    border: solid 2px black;
    margin: 15% 7% 7% 20%;
+   grid-template-columns: 1fr;
+   grid-template-rows: 15% 70% 15%;
+
 }
