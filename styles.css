@@ -24,11 +24,12 @@
     display: flex;
     justify-content: space-between;
     padding: 3%;
-    font-size: 1.25rem;
     align-items: center;
 }
 
-/* #logo */
+#logo{
+    font-size: 1.25rem;
+}
 
 #nav{
     text-transform: uppercase;
@@ -55,6 +56,7 @@
     border-radius: 2px;
     background-color: transparent;
     font-size: 1.25rem;
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 #drink-content{
@@ -74,3 +76,4 @@
 #drink-flavor{
     font-size: 1.5rem;
 }
+
