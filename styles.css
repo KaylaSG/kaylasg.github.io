@@ -12,6 +12,7 @@
     font-family: 'Balsamiq Sans', cursive;
     background-image: url(/mango.png);
     background-position: fixed;
+    background-repeat: no-repeat;
 }
 
 #content{
