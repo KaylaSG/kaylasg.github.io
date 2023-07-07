@@ -10,6 +10,8 @@
     height: 100%;
     background-color: #FAB53D;
     font-family: 'Balsamiq Sans', cursive;
+    background-image: url(/mango.png);
+    background-position: fixed;
 }
 
 #content{
