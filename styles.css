@@ -5,11 +5,19 @@
     color: white;
 }
 
+body{
+
+    background-color: #FAB53D;
+}
+
 #site{
     width: 100%;
     height: 100%;
-    background-color: #FAB53D;
+    
     font-family: 'Balsamiq Sans', cursive;
+    background-blend-mode: multiply;
+    background-color: #FAB53D;
+
     background-image: url(/mango.png);
     background-position: fixed;
     background-repeat: no-repeat;
