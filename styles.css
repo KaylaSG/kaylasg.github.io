@@ -7,7 +7,7 @@
 
 body{
 
-    background: url(/mango.png) no-repeat top center;
+    background: #fca000 url(/images/) no-repeat;
 
     /* background-color: #FAB53D;
     background-image: url(/mango.png);
@@ -94,3 +94,10 @@ body{
     line-height: 1.25;
 }
 
+#thumbnails{
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 80px;
+}
