@@ -23,7 +23,7 @@ body{
 
 #content{
    display: grid;
-   border: solid 2px black;
+   /* border: solid 2px black; */
    margin: 3%;
    grid-template-columns: 1fr;
    grid-template-rows: 1fr 3fr 1fr;
