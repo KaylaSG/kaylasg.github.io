@@ -94,5 +94,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 80px;
+}
+
+.thumbnail-img{
+    height: 50%;
 }
