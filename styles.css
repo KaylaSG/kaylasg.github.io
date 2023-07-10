@@ -15,8 +15,6 @@ body{
 #site{
     width: 100svw;
     height: 100svh;
-    background-color: rgba(rgba(250, 181, 61, 0.829));
-    z-index: 2;
     font-family: 'Balsamiq Sans',cursive; 
 }
 
