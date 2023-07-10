@@ -7,10 +7,10 @@
 
 body{
 
-    background: linear-gradient(to right, rgba(250, 181, 61, ), rgba(250, 181, 61, 0.486));
-    background-image: url(/mango.png);
+    background: linear-gradient(to right, rgba(250, 181, 61, ), rgba(250, 181, 61, 0.486)), url(/mango.png);
+    /* background-image: url(/mango.png);
     background-position: fixed;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
 #site{
