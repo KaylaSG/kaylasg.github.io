@@ -7,7 +7,7 @@
 
 body{
 
-    background-color: #FAB53D;
+    background: linear-gradient(to right, #FAB53D, white);
     background-image: url(/mango.png);
     background-position: fixed;
     background-repeat: no-repeat;
