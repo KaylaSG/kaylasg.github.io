@@ -7,7 +7,7 @@
 
 body{
 
-    background: linear-gradient(to right, #fab53d, #fab53dab), url(/mango.png) no-repeat top center;
+    background: url(/mango.png) no-repeat top center;
 
     /* background-color: #FAB53D;
     background-image: url(/mango.png);
@@ -18,7 +18,8 @@ body{
 #site{
     width: 100svw;
     height: 100svh;
-    font-family: 'Balsamiq Sans',cursive; 
+    font-family: 'Balsamiq Sans',cursive;
+    background: #fca00054; 
 }
 
 #content{
