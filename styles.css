@@ -91,10 +91,13 @@ body{
 }
 
 #thumbnails{
+    width: 45%;
+}
+
+#thumbnails-list{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 45%;
 }
 
 .thumbnail-img{
