@@ -7,7 +7,7 @@
 
 body{
 
-    background: linear-gradient(to left, #fab53d, #fab53dab), url(/mango.png) no-repeat top center;
+    background: linear-gradient(to right, #fab53d, #fab53dab), url(/mango.png) no-repeat top center;
 
     /* background-color: #FAB53D;
     background-image: url(/mango.png);
@@ -90,6 +90,6 @@ body{
 #drink-desc{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.25rem;
-    line-height: 1.5;
+    line-height: 1.25;
 }
 
