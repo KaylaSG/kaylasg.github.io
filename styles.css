@@ -8,19 +8,15 @@
 body{
 
     background-color: #FAB53D;
-}
-
-#site{
-    width: 100%;
-    height: 100%;
-    
-    font-family: 'Balsamiq Sans', cursive;
-    background-blend-mode: multiply;
-    background-color: #FAB53D;
-
     background-image: url(/mango.png);
     background-position: fixed;
     background-repeat: no-repeat;
+}
+
+#site{
+    width: 100dvw;
+    height: 100dvh;
+    font-family: 'Balsamiq Sans',cursive; 
 }
 
 #content{
