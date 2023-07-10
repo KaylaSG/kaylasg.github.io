@@ -17,7 +17,7 @@ body{
 
 #site{
     width: 100svw;
-    height: 100svh;
+    height: 100vh;
     font-family: 'Balsamiq Sans',cursive;
 }
 
@@ -26,7 +26,8 @@ body{
    /* border: solid 2px black; */
    margin: 3%;
    grid-template-columns: 1fr;
-   grid-template-rows: 50px 1fr 100px;
+   grid-template-rows: auto 1fr auto;
+   grid-template-areas: "header drink thumb"
 }
 
 #header{
@@ -34,6 +35,7 @@ body{
     justify-content: space-between;
     padding: 3%;
     align-items: center;
+    grid-area: header;
 }
 
 #logo{
@@ -75,7 +77,7 @@ body{
     width: 45%;
     padding-left: 3%;
     align-self: center;
-    
+    grid-area: drink;
 }
 
 #drink-content h1{
@@ -95,6 +97,7 @@ body{
 
 #thumbnails{
     width: 45%;
+    grid-area: thumb;
 }
 
 #thumbnails-list{
