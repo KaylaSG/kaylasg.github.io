@@ -16,7 +16,7 @@ body{
 }
 
 #site{
-    width: 100svw;
+    width: 100vw;
     height: 100vh;
     font-family: 'Balsamiq Sans',cursive;
 }
@@ -27,7 +27,7 @@ body{
    margin: 3%;
    grid-template-columns: 1fr;
    grid-template-rows: auto 1fr auto;
-   grid-template-areas: "header drink thumb"
+   grid-template-areas: "header" "drink" "thumb";
 }
 
 #header{
