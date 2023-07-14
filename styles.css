@@ -98,6 +98,8 @@ body{
 #thumbnails{
     width: 45%;
     grid-area: thumb;
+    padding-left: 3%;
+    margin-top: 5rem;
 }
 
 #thumbnails-list{
