@@ -107,11 +107,11 @@ body{
 }
 
 .thumbnail-img{
-    height: 50%;}
+    height: 133px;}
 
-.thumbnail-link{
-    height: 50px;
-    
+a.thumbnail-link{
+    height: fit-content;
+
 }
 
 .thumbnail-link:hover{
