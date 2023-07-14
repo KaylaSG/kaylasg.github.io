@@ -109,6 +109,11 @@ body{
 .thumbnail-img{
     height: 50%;}
 
+.thumbnail-link{
+    height: 50px;
+    
+}
+
 .thumbnail-link:hover{
     border-bottom: solid 2px white;
 }
