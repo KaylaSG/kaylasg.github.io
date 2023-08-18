@@ -25,5 +25,6 @@ function update(){
     document.getElementById("drink-flavor").textContent = drinks.cherry.flavor;
 }
 
-const getUpdate = document.getElementsByClassName("update");
+const getUpdate = document.querySelector(".update");
+
 getUpdate.addEventListener("click", update);
